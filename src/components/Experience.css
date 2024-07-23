@@ -1,0 +1,43 @@
+
+.animate-frame1 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 0s;
+}
+
+.animate-frame2 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 2s;
+}
+
+.animate-frame3 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 4s;
+}
+.animate-frame4 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 4s;
+}
+
+.animate-frame5 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 4s;
+}
+
+
+@keyframes moveFrames {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 50%);
+  }
+}
+.space-x-12 {
+  justify-content: center;
+}
+
+.absolute.w-full.h-4.bg-white.top-1/2.transform.-translate-y-1/2.z-10 {
+  height: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

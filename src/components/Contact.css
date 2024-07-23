@@ -1,0 +1,23 @@
+.animate-frame1 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 0s;
+}
+
+.animate-frame2 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 2s;
+}
+
+.animate-frame3 {
+  animation: moveFrames 10s infinite linear;
+  animation-delay: 4s;
+}
+
+@keyframes moveFrames {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50%, 50%);
+  }
+}
