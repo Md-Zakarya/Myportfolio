@@ -16,7 +16,7 @@ const LandingPage = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 md:px-12 lg:px-24">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500 animate-pulse">
-          Mohammad Zakaryaa
+          Mohammad Zakarya
         </h1>
         <p className="mt-4 text-lg md:text-xl lg:text-2xl text-gray-300 animate-fade-in-up">
           Software Engineer | Web Developer
