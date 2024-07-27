@@ -45,11 +45,11 @@ const projects = [
     link: 'https://pocketfull-dashboard.vercel.app/customers',  // Example path to the project page
   },
   {
-    title: 'TempEmail.io',
+    title: 'TempEmail.Fun',
     description: 'Generate and manage your temporary disposable emails effortlessly.',
     tags: ['React', 'API', 'Tailwind'],
     image: tempmail,  // Example path to your project image
-    link: 'https://tempemailio-md-zakaryas-projects.vercel.app/',  // Example path to the project page
+    link: 'https://www.tempemail.fun/',  // Example path to the project page
   },
   // Add more projects as needed
 ];
